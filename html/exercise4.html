@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ex4</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="http://www.instagram.com">
+    <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" placeholder="John" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" placeholder="Smith" required>
+    </div>
+    <div>
+        <label for="male">Male</label>
+        <input type=radio name="gender" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type=radio name="gender" id="female" value="Female">
+    </div>
+    <div>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Your email" required>
+            <label for="password">Password:</label>
+            <input type="password" required minlength="5" maxlength="10">
+    </div>
+    <div>
+        <label for="bday">Birthday:</label>
+        <select name="birthdayMonth" id="bday">
+            <option value="">Month</option>
+            <option value="January">January</option>
+            <option value="May">May</option>
+            <option value="July">July</option>
+        </select>
+        
+            <select name="birthdayDay" id="bday">
+                    <option value="">Day</option>
+                    <option value="papież">2</option>
+                    <option value="Gwałcił">1</option>
+                    <option value="Małe ">3</option>
+                    <option value="Dzieci">7</option>
+                </select>
+                <select name="birthdayYear" id="bday">
+                        <option value="">Year</option>
+                        <option value="1994">1996</option>
+                        <option value="1994">1995</option>
+                        <option value="1994">1994</option>
+                    </select>
+    </div>
+    <div>
+        <label for="checkbox">I agree to the terms and conditions</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+</form>
+
+
+</body>
+</html>
